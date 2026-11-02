@@ -10,6 +10,15 @@ This repo has small, copy-paste examples for the [TalkPix developer API](https:/
 
 Prefer a typed client? Use the official Node.js package [`talkpix`](https://www.npmjs.com/package/talkpix) ([source](https://github.com/talkpixai/talkpix-node)): `npm install talkpix`.
 
+## Use TalkPix from Claude or ChatGPT (MCP)
+
+No code needed: TalkPix is also a hosted MCP server, so Claude and ChatGPT can make talking photos, product video ads and AI videos with your TalkPix credits. The assistant quotes the cost first and starts only after you say yes.
+
+- Endpoint: `https://www.talkpix.ai/api/mcp` (Streamable HTTP, OAuth sign-in)
+- Claude: **Settings → Connectors → Add custom connector** → [setup guide](https://www.talkpix.ai/claude?utm_source=github&utm_medium=readme&utm_campaign=assistant-launch-2026-11)
+- ChatGPT: developer mode, then **Apps & Connectors → Create** → [setup guide](https://www.talkpix.ai/chatgpt?utm_source=github&utm_medium=readme&utm_campaign=assistant-launch-2026-11)
+- Official MCP Registry: `io.github.talkpixai/talkpix` · server metadata: [TalkPix-AI/talkpix-mcp](https://github.com/TalkPix-AI/talkpix-mcp)
+
 ## Quickstart (curl)
 
 ```bash
