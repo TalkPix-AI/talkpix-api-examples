@@ -8,7 +8,7 @@ This repo has small, copy-paste examples for the [TalkPix developer API](https:/
 - Auth: `Authorization: Bearer tpx_live_…` (create a key on **Account → API** at [talkpix.ai](https://www.talkpix.ai))
 - Pricing: 1 credit per rendered second at 720p, 2 at 1080p, from the same credits as the TalkPix studio. Credits are reserved before a render starts and refunded automatically if it fails.
 
-Prefer a typed client? Use the official Node.js package [`talkpix`](https://www.npmjs.com/package/talkpix) ([source](https://github.com/talkpixai/talkpix-node)): `npm install talkpix`.
+Prefer a typed client? Use the official Node.js package [`talkpix`](https://www.npmjs.com/package/talkpix) ([source](https://github.com/TalkPix-AI/talkpix-node)): `npm install talkpix`.
 
 ## Use TalkPix from Claude or ChatGPT (MCP)
 
@@ -83,7 +83,7 @@ Never put an API key in a browser or mobile app. Call the API from your server.
 ## Links
 
 - Full reference: https://www.talkpix.ai/developers
-- Node.js client: https://github.com/talkpixai/talkpix-node
+- Node.js client: https://github.com/TalkPix-AI/talkpix-node
 - Pricing: https://www.talkpix.ai/pricing
 - Tutorial: [Turn a photo and a script into a lip-synced MP4 with one API call](https://talkpixai.hashnode.dev/turn-a-photo-and-a-script-into-a-lip-synced-mp4-with-one-api-call)
 - Support: support@talkpix.ai
